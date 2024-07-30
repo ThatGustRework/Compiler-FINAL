@@ -251,3 +251,8 @@ class SpanishDb:
 
 # Ejemplo de uso de la clase SpanishDb
 spanish_db = SpanishDb()
+
+# Ejemplo de texto a analizar
+texto = "La detección y corrección de errores ortográficos en el idioma español ha sido objeto de estudio en diversas investigaciones previas."
+resultado = spanish_db.analyse_text_array(texto)
+print(resultado)
